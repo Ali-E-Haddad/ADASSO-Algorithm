@@ -11,6 +11,11 @@ function [B, C, D, score] = ADASSO(A, F, K, tau, err_ov)
 % C     = (K * M) occurrence Boolean matrix corresponding to A in unipolar form {1,0}.
 % D     = (K * N) occurrence Boolean matrix corresponding to F in unipolar form {1,0}.
 % score = (K * 1) optimization scores.
+%
+% [cite] Ali E. Haddad and Laleh Najafizadeh, "The discriminative discrete basis problem:
+%        Definitions, algorithms, benchmarking, and application to brain's functional
+%        dynamics," IEEE Transactions on Signal Processing, vol. 71, pp. 1-16, 2023.
+% Coded by Ali E. Haddad
 
 [L, M] = size(A);
 N      = size(F,2);
