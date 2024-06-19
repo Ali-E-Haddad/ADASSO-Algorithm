@@ -15,6 +15,7 @@ function [B, C, D, score] = ADASSO(A, F, K, tau, err_ov)
 % [cite] Ali E. Haddad and Laleh Najafizadeh, "The discriminative discrete basis problem:
 %        Definitions, algorithms, benchmarking, and application to brain's functional
 %        dynamics," IEEE Transactions on Signal Processing, vol. 71, pp. 1-16, 2023.
+%
 % Coded by Ali E. Haddad
 
 [L, M] = size(A);
